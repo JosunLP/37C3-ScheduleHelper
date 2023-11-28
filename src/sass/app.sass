@@ -1,3 +1,4 @@
+@import 'fonts'
 @import 'root'
 @import 'mixin'
 @import 'content'
@@ -13,15 +14,15 @@ body
 
   p
     font-size: 1rem
-    font-weight: bold
     margin: auto
     padding: auto
     color: $main-font-color
     text-align: center
-    font-family: 'Roboto', sans-serif
+    font-family: $font-body
 
 h1, h2
   @include noselect
+  font-family: $font-headline
 
 form
   @include formBasic
