@@ -1,5 +1,5 @@
 {
-  "name": "browser_extension_template",
+  "name": "37c3_schedule_helper",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -34,18 +34,18 @@
       "email": "info@josunlp.de"
     }
   ],
-  "description": "A basic template based on SASS and TypeScript to create browser extensions without directly relying on a larger framework.",
-  "homepage": "https://github.com/JosunLP/BrowserExtensionTemplate",
+  "description": "A (unofficial!!!) Browser Extension to help you with keeping up with the 37C3 Schedule, not missing Talks!",
+  "homepage": "https://github.com/JosunLP/37C3-ScheduleHelper",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:JosunLP/BrowserExtensionTemplate.git"
+    "url": "git+ssh://git@github.com:JosunLP/37C3-ScheduleHelper.git"
   },
   "bugs": {
-    "url": "https://github.com/JosunLP/BrowserExtensionTemplate/issues"
+    "url": "https://github.com/JosunLP/37C3-ScheduleHelper/issues"
   },
   "dependencies": {
     "@webcomponents/custom-elements": "^1.5.1",
-    "bootstrap": "^5.2.3"
+    "lit": "^3.1.0"
   }
 }

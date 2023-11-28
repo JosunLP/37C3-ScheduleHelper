@@ -1,9 +1,9 @@
 {
-  "name": "Browser Extension Template",
+  "name": "37C3-ScheduleHelper",
   "version": "0.0.1",
   "manifest_version": 3,
-  "description": "A basic template based on SASS and TypeScript to create browser extensions without directly relying on a larger framework.",
-  "homepage_url": "https://github.com/JosunLP/BrowserExtensionTemplate",
+  "description": "A (unofficial!!!) Browser Extension to help you with keeping up with the 37C3 Schedule, not missing Talks!",
+  "homepage_url": "https://github.com/JosunLP/37C3-ScheduleHelper",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
