@@ -17,6 +17,7 @@
   "options_ui": {
     "page": "options.html"
   },
+  "web_accessible_resources": [],
   "permissions": [
     "notifications"
   ],
