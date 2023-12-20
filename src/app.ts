@@ -1,10 +1,12 @@
 import { Session } from "./classes/session"
+import ApiService from "./services/api.srvs"
 
 class App {
 
     private static contentEntry: string = "content"
 
     constructor() {
+		ApiService.getInstance();
         this.drawData()
         this.main()
     }
