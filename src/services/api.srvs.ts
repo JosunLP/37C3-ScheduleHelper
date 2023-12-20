@@ -28,7 +28,7 @@ export default class ApiService {
 	private async syncApi(): Promise<void> {
 		while (true) {
 			this.data = await this.fetchApi();
-			await new Promise((resolve) => setTimeout(resolve, 20000));
+			await new Promise((resolve) => setTimeout(resolve, 60000));
 		}
 	}
 
